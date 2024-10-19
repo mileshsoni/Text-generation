@@ -4,7 +4,7 @@ import pickle
 import numpy as np
 import streamlit as st
 
-model = load_model('model.keras')
+model = load_model('model_.keras')
 with open('tokenizer.pkl', 'rb') as file :
     tokenizer = pickle.load(file)
 max_sequence_len = 20
